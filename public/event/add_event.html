@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Classtered, Your Studying Companion</title>
+    <link rel="stylesheet" href="./add_event.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <header>Add Event</header>
+      <div class="form-outer">
+        <form action="/submit-event">
+          <div class="page slide-page">
+            <div class="field">
+              <div class="label">Event Name</div>
+              <input type="text">
+            </div>
+            <div class="field">
+              <div class="label">Event Description</div>
+              <input type="text">
+            </div>
+            <div class="field">
+              <button class="firstNext next">Next</button>
+            </div>
+          </div>
+
+          <div class="page">
+            <div class="field">
+              <div class="label">Event Keyword</div>
+              <input type="text">
+            </div>
+            <div class="field">
+              <div class="label">Event Date</div>
+              <input type="date">
+            </div>
+            <div class="field btns">
+              <button class="prev-1 prev">Previous</button>
+              <button class="next-1 next">Next</button>
+            </div>
+          </div>
+
+          <div class="page">
+            <div class="field">
+              <div class="label">Event Poster</div>
+              <input type="file" name="myImage" accept="image/*" />
+            </div>
+            <div class="field btns">
+              <button class="prev-2 prev">Previous</button>
+              <button class="next-2 next">Next</button>
+            </div>
+          </div>
+
+          <div class="page">
+            <div class="field">
+              <div class="label">Organizer Name</div>
+              <input type="text">
+            </div>
+            <div class="field">
+              <div class="label">Organizer Contact</div>
+              <input type="email">
+            </div>
+            <div class="field btns">
+              <button class="prev-3 prev">Previous</button>
+              <button class="submit">
+                <a href="#homepage">Submit</a>
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="add_event.js"></script>
+    <script src="../../upload_event.js"></script>
+  </body>
+</html>

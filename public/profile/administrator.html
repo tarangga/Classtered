@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>Classtered, Your Studying Companion</title>
+      <link rel="stylesheet" href="administrator.css">
+   </head>
+   <body>
+      
+      <div class="container">
+         <div class="profile-header">
+            <div class="profile-img">
+               <img src="" width="200" alt="">
+            </div>
+            <div class="profile-nav-info">
+               <h3 class="name">Random Administrator</h3>
+               <p>Administrator</p>
+            </div>
+         </div>
+         <div class="main-bd">
+            <div class="left-side">
+               <div class="profile-side">
+                  <h2>Add New</h2>
+                  <div class="profile-btn">
+                     <button class="eventbtn">
+                        <a href="add_event.html">Event</a>
+                     </button>
+                     <button class="coursebtn">
+                        <a href="add_event.html">Course</a>
+                     </button>
+                  </div>   
+               </div>
+            </div>
+            <div class="right-side">
+               <div class="nav">
+                  <ul>
+                     <li onclick="tabs(0)" class="user-events">Past Events</li>
+                     <li onclick="tabs(1)" class="user-event-approve">Approve Events</li>
+                     <li onclick="tabs(2)" class="user-course-approve">Approve Courses</li>
+                  </ul>
+               </div>
+               <div class="profile-body">
+                  <div class="tab">
+                     <div class="profile-posts-tab">
+                        <h1>Your Past Events</h1>
+                        <p>Your events will show up here.</p>
+                     </div>
+                     <div class="profile-event-approve-tab">
+                        <h1>Events to Approve</h1>
+                        <p>New events will show up here</p>
+                     </div>
+                     <div class="profile-course-approve-tab">
+                        <h1>Courses to Approve</h1>
+                        <p>New courses will show up here</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <script src="administrator.js"></script>
+   </body>
+</html>

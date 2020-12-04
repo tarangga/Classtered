@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>Classtered, Your Studying Companion</title>
+      <link rel="stylesheet" href="collaborator.css">
+   </head>
+   <body>
+   
+      <div class="container">
+         <div class="profile-header">
+            <div class="profile-img">
+               <img src="" width="200" alt="">
+            </div>
+            <div class="profile-nav-info">
+               <h3 class="name">Random Collaborator</h3>
+               <p>Collaborator</p>
+            </div>
+         </div>
+         <div class="main-bd">
+            <div class="left-side">
+               <div class="profile-side">
+                  <h2>Add New</h2>
+                  <div class="profile-btn">
+                     <button class="eventbtn">
+                        <a href="add_event.html">Event</a>
+                     </button>
+                     <button class="coursebtn">
+                        <a href="add_event.html">Course</a>
+                     </button>
+                  </div>   
+               </div>
+            </div>
+            <div class="right-side">
+               <div class="nav">
+                  <ul>
+                     <li onclick="tabs(0)" class="user-past-events">Past Events</li>
+                     <li onclick="tabs(1)" class="user-event-status">Event Status</li>
+                     <li onclick="tabs(2)" class="user-setting">Settings</li>
+                  </ul>
+               </div>
+               <div class="profile-body">
+                  <div class="tab">
+                     <div class="profile-posts-tab">
+                        <h1>Your Past Events</h1>
+                        <p>Your events will show up here.</p>
+                     </div>
+                     <div class="profile-status-tab">
+                        <h1>Your Event Status</h1>
+                        <p>Your events will show up here</p>
+                     </div>
+                     <div class="profile-settings-tab">
+                        <h1>Settings</h1>
+                        <p>Want faster approved events?</p>
+                        <button class="admin">
+                           <a href="administrator.html">
+                              Upgrade to Administrator
+                           </a>
+                        </button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <script src="collaborator.js"></script>
+   </body>
+</html>
